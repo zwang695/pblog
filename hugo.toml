@@ -1,0 +1,33 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Zachary Wang'
+theme = "paper"
+
+[params]
+
+  # color style
+  color = 'linen'                           # linen, wheat, gray, light
+
+  # header social icons
+  github = 'zwang695'                 # github.com/YOUR_GITHUB_ID
+  linkedin = 'zacharywang2002'             # linkedin.com/in/YOUR_LINKEDIN_ID
+  rss = false                                # show rss icon
+
+  # home page profile
+  avatar = 'zacharyw1009@gmail.com'                 # gravatar email or image url
+  name = "Hi I'm Zach!"
+  bio = 'asdfasdf'
+
+  # misc
+  disableHLJS = true                        # disable highlight.js
+  disablePostNavigation = true              # disable post navigation
+  monoDarkIcon = true                       # show monochrome dark mode icon
+  math = true                               # enable KaTeX math typesetting globally
+  localKatex = false                        # use local KaTeX js/css instead of CDN
+  favicon = "favicon.ico"                   # customize the default favicon
+  appleTouchIcon = "apple-touch-icon.png"   # customize the default Apple touch icon
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
